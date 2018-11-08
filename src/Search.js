@@ -6,6 +6,7 @@ class Search extends Component {
 			<div className='Search'>
 				<form>
 					<input type='text'></input>
+				 	<input type='submit' value='Search'></input>
 				</form>
 			</div>
 		)

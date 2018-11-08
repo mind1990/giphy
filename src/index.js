@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import './index.css';
-import Search from './components/Search';
-import Home from './components/Home';
+import Search from './Search';
+import Home from './Home';
 // import * as serviceWorker from './serviceWorker';
 // import { BrowserRouter } from 'react-router-dom';
 
