@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 
 class Search extends Component {
-	render() {
-		return (
-			<div className='Search'>
-				<form>
-					<input type='text'></input>
-				 	<input type='submit' value='Search'></input>
-				</form>
-			</div>
-		)
+ 
+ 	handleSearchSubmit(event) {
+	  event.preventDefault();
+	  console.log('search!')
+	}
+
+ 	render() {
+    return (
+      <div className="SearchBar">
+        <form onSubmit={this.handleSearchSubmit}>
+          <input type="text" ref={(input) => this.textInput = input} />
+          <button>Search</button>
+        </form>
+      </div>
+    );
 	}
 }
 
